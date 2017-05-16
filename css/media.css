@@ -1,0 +1,192 @@
+@media (max-width: 768px) {
+  .logo img{
+    width: 250px;
+  }
+  .tel img{
+    width: 120px;
+  }
+  .tel{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .txt{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tel{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  .txt h1{
+    text-shadow: 0 0 5px #000000;
+  }
+}
+
+
+@media (max-width: 340px){
+
+  .head{
+    background-color: background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  /*page 1*/
+  .logo img{
+    width: 150px;
+  }
+
+  .logo{
+    height: 150px;
+  }
+  .app340{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .appl{
+    background-color: transparent;
+    cursor: pointer;
+    border-style: none;
+    background-image: url(../gallery/applestore.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .googl{
+    background-color: transparent;
+    cursor: pointer;
+    border-style: none;
+    background-image: url(../gallery/google.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 160px;
+    height: 70px;
+
+  }
+
+  .appli{
+    width: 160px;
+    height: 43px;
+  }
+
+  .image{
+    display: none;
+    flex-direction: column;
+  }
+
+  .txt{
+    width: 50%;
+    height: 70vh;
+    background-color: red;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .txt h1{
+    display: none;
+    justify-content: center;
+    color: white;
+    font-family: 'poppins';
+    text-shadow: 0 0 2px #000000;
+  }
+
+
+
+  .tel{
+    width: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+  }
+  .tel img{
+    width: 150px;
+    display: none;
+  }
+  /*media page2*/
+.background{
+  background-position: center;
+}
+  .triangle{
+    background-color: rgba(140, 139, 161);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+  }
+
+
+  .triangle h1{
+    font-size: 15px;
+  }
+
+  .triangle p{
+    font-size: 13px;
+  }
+
+  .block{
+    display: none;
+  }
+  /*media page 3*/
+
+
+
+  .image{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .select
+  {
+    background-image: url(../gallery/luffy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 33,33vh;
+    filter: brightness(20%);
+    transition: 0.4s;
+    display: flex;
+  }
+  .select2
+  {
+    background-image: url(../gallery/sabo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 33,33vh;
+    filter: brightness(20%);
+    transition: 0.4s;
+    display: flex;
+  }
+  .select3
+  {
+    background-image: url(../gallery/law.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 33,33vh;
+    filter: brightness(20%);
+    transition: 0.4s;
+    display: flex;
+  }
+}

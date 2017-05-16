@@ -2,60 +2,50 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/akuma.css" media="screen" title="no title">
-  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="icon" type="image/png" href="gallery/op.png" />
-
-  <title>Accueil | Akuma No Mi</title>
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 <body>
-
-  <header class="accueil img">
-    <div class="OP">
-      <img src="gallery/oplogo.png" alt="" />
+  <header id="accueil" class="head">
+    <nav>
+      <ul class="menu">
+        <li><a class="rond" href="#accueil"></a></li>
+        <li><a class="rond" href="#equipage"></a></li>
+        <li><a class="rond" href="#incarn"></a></li>
+      </ul>
+    </nav>
+    <div class="logo">
+      <img src="gallery/onepiecelogo.png" alt="">
     </div>
-    <article class="boxe">
-      <h1>JE <br>SERAI<br>LE ROI<br> DES PIRATES</h1>
-
-    </article>
-    <article class="boxe img1">
-      <img id="tel" src="gallery/modèle.png" alt="" />
-      <h1 id="font">Disponible bientot sur</h1>
-      <div class="bouton">
-        <a href="#"><img class="dl" src="gallery/google.png" alt="" /></a>
-        <a href="#"><img class="dl2" src="gallery/applestore.png" alt="" /></a>
+    <div class="app340">
+      <button class="appli appl" type="button" name="button"></button>
+      <button class="googl" type="button" name="button"></button>
+    </div>
+    <main class="principal">
+      <div class="txt">
+        <h1>JE <br>SERAI<br>LE ROI<br> DES PIRATES</h1>
       </div>
-    </article>
+      <div class="tel">
+        <img src="gallery/mockup.png" alt="">
+      </div>
+    </main>
   </header>
-  <div class="barre">
-  </div>
-  <header class="accueil2 img2">
-    <div class="capture">
-      <h1>Capturez les fruits du démon !</h1>
-      <p>
-        Parcourez le monde, gagnez de l'expérience au fil des combats, accumulez les berrys pour vous améliorer, devenez roi des pirates !
-      </p>
+  <section id="equipage" class="background">
+    <div class="triangle">
+      <h1>Crée Ton propre équipage !</h1>
+      <p>à partir d'un certain niveau, tu seras capable de créer ton équiage, et affonter d'autre équipes afin de voler leur drapeau pour au final participer à un tournoi hebdomadaire, ou le gagnant reçevera un fruit légendaire ! </p>
     </div>
-  </header>
-  <div class="barre">
-  </div>
-  <header class="accueil3 img4">
-    <div class="team">
-      <h1 class="police" >Créez votre propre équipage !</h1>
-      <p class="white">
-        à partir d'un certain niveau, tu seras capable de créer ton équiage, et affonter d'autre équipes afin de voler leur drapeau pour au final participer à un tournoi hebdomadaire, ou le gagnant reçevera un fruit légendaire !
-      </p>
+    <div class="block">
     </div>
-  </header>
-
-  <div class="barre">
-  </div>
-
-  <header class="image">
+  </section>
+  <section class="image" id="incarn">
 
     <div class="select hover">
-      <h3>Incarnez Monkey .D Luffy</h3>
+      <h3>Incarnez Monkey D. Luffy</h3>
     </div>
     <div class="select2 hover">
       <h3>Incarnez Sabo</h3>
@@ -63,31 +53,15 @@
     <div class="select3 hover">
       <h3>Incarnez Trafalgar Law</h3>
     </div>
-  </header>
-
-  <footer id="fin">
-
+  </section>
+  <footer>
+    <p>One Piece©</p>
     <div class="boutons">
-      <a target="_blank"href="https://www.facebook.com/onepieceakumanomi/"><img id="fb" src="gallery/facebook_icon.png" alt="" /></a>
-      <a target="_blank"href="https://twitter.com/_AkumaNoMi"><img id="twit" src="gallery/logo_twitter.png" alt="" /></a>
+      <a target="_blank" href="https://www.facebook.com/onepieceakumanomi/"><img class="fb" src="gallery/facebook_icon.png" alt="" /></a>
+      <a target="_blank" href="https://twitter.com/_AkumaNoMi"><img class="twit" src="gallery/logo_twitter.png" alt="" /></a>
     </div>
-
-    <nav>
-      <ul>
-        <a href="#"><li>Conditions Générales D'utilisation</li></a>
-        <a href="#"><li>Mentions Légales</li></a>
-        <a href="#"><li>Publicité</li></a>
-      </ul>
-    </nav>
   </footer>
-
-  <div class="copy">
-    <p>
-      AkumaNoMi copyright©
-    </p>
-  </div>
-
-
-
+  <script src="jquery-3.2.0.js" charset="utf-8"></script>
+  <script src="script.js" charset="utf-8"></script>
 </body>
 </html>
